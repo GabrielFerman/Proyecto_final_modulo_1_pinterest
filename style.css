@@ -82,3 +82,69 @@
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.container_galeria{
+	width: 100%;
+	height: 20%;
+	margin: 0% 5%;
+	display: grid;
+	grid-template-columns: repeat(6,14%);
+	grid-template-rows: repeat(5,10%);
+	grid-gap: 5px;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+img:hover{
+	border: 2px solid aqua;
+}
+h1{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	font-size: 300%;
+	color: orange;
+}
+p{
+	width:95%;
+	height: 100%;
+	margin: 5% 0%;
+	text-align: center;
+	font-family: arial;
+	font-size: 100%;
+	color: white;
+}
+.imagen_1{
+	grid-row: 1 / 3;
+}
+.imagen_4{
+	grid-column: 4 /  6;
+}
+.imagen_14{
+	grid-column: 4 / 6;
+}
+.imagen_10{
+	grid-column: 6;
+	grid-row: 2 / 4;
+}
+.imagen_15{
+	
+	grid-column: 1 / 3;
+}
+.imagen_16{
+	grid-column: 3 / 4;
+}
+.imagen_17{
+	grid-column: 4 / 7;
+}
+.imagen_18{
+	grid-column: 1 / 3;
+}
+.imagen_19{
+	grid-column: 3 / 4;
+}
+.imagen_20{
+	grid-column: 4 / 7;
+}
